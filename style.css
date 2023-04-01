@@ -66,6 +66,34 @@ button{
 img{
     border: 3px solid rgb(79,79,194);
     border-radius: 6px;
-    width:200px;
-    height:200px;
+    height:150px;
+    width:150px;
+    margin :10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding  :40px;
+    gap:15px;
+}
+.images{
+  display: flex;
+  justify-content: center;
+  gap : 30px;
+}
+.image1,.image2,.image3,.image4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:150px;
+    flex:1;
+    
+}
+.content .title{
+    color:#1F2937;
+    font-weight: 900;
+    font-size: 36px;
 }
