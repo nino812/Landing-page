@@ -25,3 +25,40 @@ a{
     color: #E5E7EB;
     font-size:18px;
 }
+.title{
+    display:flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+
+}
+.intro1{
+    display:flex;
+    flex-direction: column;
+}
+.image{
+    background-color: #8c919c;
+    font-family: 'Times New Roman', Times, serif;
+    color: #E5E7EB;
+    font-size:18px;
+    margin:15px;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+    width:300px;
+    height:150px;
+}
+.big {
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+.small{
+    color: #E5E7EB;
+    font-size:18px;
+}
+button{
+    background-color:rgb(79, 79, 194);
+    border-color: rgb(79, 79, 194);
+    border-radius: 5px;
+    padding:5px;
+}
