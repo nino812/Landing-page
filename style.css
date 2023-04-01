@@ -2,6 +2,9 @@ html,body{
     margin:0px;
     padding:0px;
 }
+.body{
+    display:flex;
+}
 .header{
     display:flex;
     justify-content: space-around;
@@ -64,6 +67,7 @@ button{
     padding:5px;
     color:#E5E7EB;
     padding:0 10px;
+    font-size: 20px;
 }
 img{
     border: 3px solid rgb(79,79,194);
@@ -127,4 +131,11 @@ img{
 }
 .button button{
     border: 2px solid white;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    gap:3px;
+    padding:5px;
+    background-color: #1F2937;
 }
