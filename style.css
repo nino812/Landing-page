@@ -97,3 +97,18 @@ img{
     font-weight: 900;
     font-size: 36px;
 }
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding:50px;
+}
+.quote p{
+    width:700px;
+}
+.author{
+    margin:0 650px;
+    margin-left:auto;
+}
